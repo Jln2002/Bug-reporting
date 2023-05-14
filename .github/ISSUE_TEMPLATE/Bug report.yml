@@ -18,6 +18,7 @@ body:
     validations:
       required: True
       
+   body:  
   - type: textarea
     id: what-happened
     attributes:
@@ -28,6 +29,7 @@ body:
     validations:
       required: true
       
+   body:
   - type: dropdown
     id: version
     attributes:
@@ -42,7 +44,7 @@ body:
       required: true
       
   
-      
+   body:
   - type: checkboxes
     id: terms
     attributes:
