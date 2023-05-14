@@ -29,12 +29,12 @@ body:
   - type: dropdown
     id: version
     attributes:
-      label: Version
+      label: Issue Mod
       description: Please select what mod the bug occured with if it was mod related
       options:
         - SOBT Pack 2
         - Elevator Mod
-        - Not appilcable
+        - Weapon Core 
     validations:
       required: true
   - type: textarea
