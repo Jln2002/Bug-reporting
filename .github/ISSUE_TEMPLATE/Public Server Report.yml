@@ -41,7 +41,7 @@ body:
     id: terms
     attributes:
       label: Terms and Conditions
-      description: By submitting this issue, you agree to follow our [Terms](https://github.com/Jln2002/Bug-reporting/edit/master/.github/ISSUE_TEMPLATE/Public%20Server%20Report.yml)
+      description: By submitting this issue, you agree to follow our [Terms](https://github.com/Jln2002/Bug-reporting/blob/master/README.md)
       options:
         - label: I agree to follow this project's Terms
           required: true
