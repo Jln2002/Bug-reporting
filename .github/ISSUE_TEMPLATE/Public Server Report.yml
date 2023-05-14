@@ -1,4 +1,4 @@
-name: Captain Jack Publivc Server reporting System
+name: Captain Jack Public Server reporting System
 description: for reporting unintended features or errors that Occur in the CJ Public Server
 title: "[Bug]: "
 labels: ["bug", ]
@@ -13,15 +13,15 @@ body:
     id: contact
     attributes:
       label: Contact Details
-      description: Please enter your discord ID incase we need more info?
-      placeholder: ex. email@example.com
+      description: Please enter your discord ID incase we need to contact you for more info
+      placeholder: Discord ID
     validations:
-      required: false
+      required: true
   - type: textarea
     id: what-happened
     attributes:
       label: What where you doing when the bug occurred
-      description: what happened during the bug
+      description: Please give an in detail description of what occured during the bug and what you were doung at the time
       placeholder: please describe what happened
       value: "A bug happened!"
     validations:
