@@ -40,8 +40,8 @@ body:
   - type: checkboxes
     id: terms
     attributes:
-      label: Code of Conduct
-      description: By submitting this issue, you agree to follow our [Code of Conduct](https://github.com/Jln2002/CW_SE_Releases/blob/master/infofiles/Code-of-conduct)
+      label: Terms and Conditions
+      description: By submitting this issue, you agree to follow our [Terms](https://github.com/Jln2002/Bug-reporting/edit/master/.github/ISSUE_TEMPLATE/Public%20Server%20Report.yml)
       options:
-        - label: I agree to follow this project's Code of Conduct
+        - label: I agree to follow this project's Terms
           required: true
