@@ -1,19 +1,19 @@
-name: Bug Report
-description: for reporting unintended features or errors in the program
+name: Captain Jack Publivc Server reporting System
+description: for reporting unintended features or errors that Occur in the CJ Public Server
 title: "[Bug]: "
 labels: ["bug", ]
 assignees:
-  - Jln2002
+  - OwendB
 body:
   - type: markdown
     attributes:
       value: |
-        Thanks for taking the time to help us make the application better for you
+        Thanks for taking the time to help us make the Captain Jack Public Server a better experince for you and others
   - type: input
     id: contact
     attributes:
       label: Contact Details
-      description: How can we get in touch with you if we need more info?
+      description: Please enter your discord ID incase we need more info?
       placeholder: ex. email@example.com
     validations:
       required: false
