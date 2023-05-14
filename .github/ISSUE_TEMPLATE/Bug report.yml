@@ -16,9 +16,8 @@ assignees:
       description: Please tell us your discord ID incase we need more info
       placeholder: Discord ID 
     validations:
-      required: True
+      required: true   
       
-  body:
   - type: textarea
     id: what-happened
     attributes:
