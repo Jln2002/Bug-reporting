@@ -4,7 +4,7 @@ title: "[Bug]: "
 labels: ["bug", ]
 assignees:
   - Jln2002
-body:
+
   - type: markdown
     attributes:
       value: |
@@ -18,7 +18,7 @@ body:
     validations:
       required: True
       
-   body:  
+  body:
   - type: textarea
     id: what-happened
     attributes:
@@ -29,7 +29,7 @@ body:
     validations:
       required: true
       
-   body:
+
   - type: dropdown
     id: version
     attributes:
@@ -44,7 +44,7 @@ body:
       required: true
       
   
-   body:
+
   - type: checkboxes
     id: terms
     attributes:
