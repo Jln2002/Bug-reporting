@@ -8,7 +8,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thanks for taking the time to help us make the application better for you
+        Thanks for taking the time to help us make the Captain Jack Public server a better experince by reporting this issue
   - type: input
     id: contact
     attributes:
