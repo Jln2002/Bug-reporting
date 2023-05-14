@@ -16,33 +16,33 @@ body:
       description: Please tell us your discord ID incase we need more info
       placeholder: Discord ID 
     validations:
-      required: false
+      required: True
+      
   - type: textarea
     id: what-happened
     attributes:
-      label: What where you doing when the bug occurred
-      description: what happened during the bug
+      label: 
+      description: Please Decribe the Issue that occured in Detail if possible
       placeholder: please describe what happened
       value: "A bug happened!"
     validations:
       required: true
+      
   - type: dropdown
     id: version
     attributes:
-      label: Version
-      description: What version of our software are you running?
+      label: Mods
+      description: Please if viable select the mod that caused the issue from the list below
       options:
-        - main release
-        - developer
-        - experimental branch
+        - Elevator Mod
+        - SOBT Weapon Pack 2
+        - Weapon Core (default)
+        - Not Mod related
     validations:
       required: true
-  - type: textarea
-    id: logs
-    attributes:
-      label: Relevant log output
-      description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
-      render: shell
+      
+  
+      
   - type: checkboxes
     id: terms
     attributes:
