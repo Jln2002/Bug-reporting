@@ -30,11 +30,11 @@ body:
     id: version
     attributes:
       label: Version
-      description: What version of our software are you running?
+      description: Please select what mod the bug occured with if it was mod related
       options:
-        - main release
-        - developer
-        - experimental branch
+        - SOBT Pack 2
+        - Elevator Mod
+        - Not appilcable
     validations:
       required: true
   - type: textarea
