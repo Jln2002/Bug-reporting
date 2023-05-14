@@ -3,7 +3,7 @@ description: for reporting unintended features or errors in the program
 title: "[Bug]: "
 labels: ["bug", ]
 assignees:
-  - Jln2002
+ - Jln2002
   body:
   - type: markdown
     attributes:
