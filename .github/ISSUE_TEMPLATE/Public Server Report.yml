@@ -1,6 +1,6 @@
 name: Captain Jack Public Server reporting System
 description: for reporting unintended features or errors that Occur in the CJ Public Server
-title: "[Bug]: "
+title: "[Bug]: Report "
 labels: ["bug", ]
 assignees:
   - OwendB
