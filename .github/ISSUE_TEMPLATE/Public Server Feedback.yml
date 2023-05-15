@@ -24,16 +24,8 @@ body:
       value: ":)"
     validations:
       required: false
-   body:
-   - type: textarea
-    id: what-did-you-dislike
-    attributes:
-      label: what did you like
-      description: what did you enjoy with event!
-      placeholder: uwu
-      value: ":)"
-    validations:
-      required: false
+   
+   
       
       - type: textarea
     id: what-did-you-dislike
