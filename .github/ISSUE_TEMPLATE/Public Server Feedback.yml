@@ -24,8 +24,7 @@ body:
       value: ":)"
     validations:
       required: false
-      
-       - type: textarea
+   
     id: what-did-you-like
     attributes:
       label: what did you like
