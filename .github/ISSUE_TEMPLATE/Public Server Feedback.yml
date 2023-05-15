@@ -24,7 +24,7 @@ body:
       value: ":)"
     validations:
       required: false
-   
+   body:
    - type: textarea
     id: what-did-you-dislike
     attributes:
