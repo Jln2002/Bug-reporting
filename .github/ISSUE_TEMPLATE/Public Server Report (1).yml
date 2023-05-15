@@ -1,0 +1,47 @@
+name: Captain Jack Public Server reporting System
+description: for reporting unintended features or errors that Occur in the CJ Public Server
+title: "[Bug]: "
+labels: ["bug", ]
+assignees:
+  - OwendB
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to help us make the Captain Jack Public Server a better experince for you and others
+  - type: input
+    id: contact
+    attributes:
+      label: Contact Details
+      description: Please enter your discord ID incase we need to contact you for more info
+      placeholder: Discord ID
+    validations:
+      required: true
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What where you doing when the bug occurred
+      description: Please give an in detail description of what occured during the bug and what you were doung at the time
+      placeholder: please describe what happened
+      value: "A bug happened!"
+    validations:
+      required: true
+  - type: dropdown
+    id: version
+    attributes:
+      label: Issue Mod
+      description: Please select what mod the bug occured with if it was mod related
+      options:
+        - SOBT Pack 2
+        - Elevator Mod
+        - Weapon Core 
+    validations:
+      required: true
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Code of Conduct
+      description: By submitting this issue, you agree to follow our [Code of Conduct](https://github.com/Jln2002/CW_SE_Releases/blob/master/infofiles/Code-of-conduct)
+      options:
+        - label: I agree to follow this project's Code of Conduct
+          required: true
