@@ -25,7 +25,8 @@ body:
     validations:
       required: false
    
-    id: what-did-you-like
+   - type: textarea
+    id: what-did-you-dislike
     attributes:
       label: what did you like
       description: what did you enjoy with event!
