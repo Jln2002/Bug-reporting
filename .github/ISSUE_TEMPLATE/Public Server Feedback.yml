@@ -25,6 +25,15 @@ body:
     validations:
       required: false
       
+       - type: textarea
+    id: what-did-you-like
+    attributes:
+      label: what did you like
+      description: what did you enjoy with event!
+      placeholder: uwu
+      value: ":)"
+    validations:
+      required: false
    
   - type: dropdown
     id: version
