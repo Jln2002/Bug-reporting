@@ -1,5 +1,5 @@
-name: Captain Jack Public Server reporting System
-description: for reporting unintended features or errors that Occur in the CJ Public Server
+name: Captain Jack Public Server Feeback System
+description: thank you for taking time to give us feedback for the Captain Jack Public Server
 title: "[Bug]: "
 labels: ["bug", ]
 assignees:
