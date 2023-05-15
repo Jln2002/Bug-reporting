@@ -21,7 +21,16 @@ body:
       label: what did you like
       description: what did you enjoy with event!
       placeholder: uwu
-      value: "A bug happened!"
+      value: ":)"
+    validations:
+      required: false
+      - type: textarea
+    id: what-did-you-dislike
+    attributes:
+      label: what did you like
+      description: what did you dislike about the event
+      placeholder: uwu
+      value: ":("
     validations:
       required: false
   - type: dropdown
