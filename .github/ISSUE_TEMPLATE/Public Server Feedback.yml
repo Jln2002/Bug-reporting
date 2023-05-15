@@ -16,23 +16,25 @@ body:
     validations:
       required: true
   - type: textarea
-    id: what-happened
+    id: what-did-you-like
     attributes:
-      label: What where you doing when the bug occurred
-      description: Please give an in detail description of what occured during the bug and what you were doung at the time
-      placeholder: please describe what happened
+      label: what did you like
+      description: what did you enjoy with event!
+      placeholder: :)
       value: "A bug happened!"
     validations:
-      required: true
+      required: false
   - type: dropdown
     id: version
     attributes:
       label: Issue Mod
-      description: Please select what mod the bug occured with if it was mod related
+      description: how many stars would you give this event
       options:
-        - SOBT Pack 2
-        - Elevator Mod
-        - Weapon Core 
+        - 1 
+        - 2 
+        - 3
+        - 4
+        - 5
     validations:
       required: true
   - type: checkboxes
