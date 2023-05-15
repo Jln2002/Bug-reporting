@@ -20,7 +20,7 @@ body:
     attributes:
       label: what did you like
       description: what did you enjoy with event!
-      placeholder: :)
+      placeholder: uwu
       value: "A bug happened!"
     validations:
       required: false
