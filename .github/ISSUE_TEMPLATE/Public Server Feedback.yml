@@ -24,7 +24,8 @@ body:
       value: ":)"
     validations:
       required: false
-      - type: textarea
+      
+   - type: textarea   
     id: what-did-you-dislike
     attributes:
       label: what did you like
@@ -33,6 +34,7 @@ body:
       value: ":("
     validations:
       required: false
+      
   - type: dropdown
     id: version
     attributes:
